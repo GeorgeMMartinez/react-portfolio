@@ -2,6 +2,8 @@
  
 ## Sample
 
+![Screenshot](screenshot.png)
+
 ## Table of Contents
 * [Description](#description)
 * [Deployement](#deployment)
