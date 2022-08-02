@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import './nav.css';
 
 const ResponsiveAppBar = ({pageState, setPageState}) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -22,7 +23,7 @@ const ResponsiveAppBar = ({pageState, setPageState}) => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar class="nav" position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -33,10 +34,10 @@ const ResponsiveAppBar = ({pageState, setPageState}) => {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'ariel',
               fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
+              letterSpacing: '.2rem',
+              color: 'white',
               textDecoration: 'none',
             }}
           >
